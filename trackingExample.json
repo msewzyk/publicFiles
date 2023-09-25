@@ -1,0 +1,31 @@
+{
+  "events": [
+    {
+      "title": "PageView",
+      "parameters": {
+        "page_name": "Homepage",
+        "user_id": "12345",
+        "timestamp": "2023-09-25T10:30:00"
+      }
+    },
+    {
+      "title": "ButtonClick",
+      "parameters": {
+        "button_id": "submit_button",
+        "page_name": "Contact Us",
+        "user_id": "54321",
+        "timestamp": "2023-09-25T11:15:00"
+      }
+    },
+    {
+      "title": "Purchase",
+      "parameters": {
+        "product_id": "A123",
+        "quantity": 2,
+        "total_price": 49.99,
+        "user_id": "98765",
+        "timestamp": "2023-09-25T14:45:00"
+      }
+    }
+  ]
+}
